@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="mediaqueries.css" />
+  </head>
+  <body>
+    <nav id="desktop-nav">
+      <div class="logo">Cheng Yi Ting</div>
+      <div>
+        <ul class="nav-links">
+          <li><a href="index.html#about">About</a></li>
+          <li><a href="index.html#skills">Skills</a></li>
+          <li><a href="index.html#projects">Projects</a></li>
+          <li><a href="index.html#contact">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+    <nav id="hamburger-nav">
+      <div class="logo">Cheng Yi Ting</div>
+      <div class="hamburger-menu">
+        <div class="hamburger-icon" onclick="toggleMenu()">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div class="menu-links">
+          <li><a href="#about" onclick="toggleMenu()">About</a></li>
+          <li><a href="#skills" onclick="toggleMenu()">Skills</a></li>
+          <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
+          <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+        </div>
+      </div>
+    </nav>
+        
+    <!-- Projects -->
+    <section id="projects">
+      <p class="section__text__p1">Browse My Recent</p>
+      <h1 class="title">Projects</h1>
+      <!-- 1st row -->
+      <div class="skills-details-container">
+        <div class="about-containers">
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="./assets/londonBikes.png"
+                alt="London Bike Rides Project"
+                class="project-img"
+              />
+            </div>
+            <h2 class="skills-sub-title project-title">Bike Rides Project</h2>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://github.com/yt3302/London-Bike-Rides.git'"
+              >
+                Github
+              </button>
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://public.tableau.com/views/LondonBikeRides_17244100297070/Dashboard1?:language=en-GB&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link'"
+              >
+                Visualization
+              </button>
+            </div>
+          </div>
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="./assets/britishAirways.png"
+                alt="British Airways Reviews Project"
+                class="project-img"
+              />
+            </div>
+            <h2 class="skills-sub-title project-title">Airways Reviews Project</h2>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://github.com/yt3302/British-Airways-Reviews-Project.git'"
+              >
+                Github
+              </button>
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://public.tableau.com/views/BritishAirwaysReview_17247540376760/Dashboard1?:language=en-GB&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link'"
+              >
+                Visualization
+              </button>
+            </div>
+          </div>
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="./assets/houseSales.png"
+                alt="King County House Sales Project"
+                class="project-img"
+              />
+            </div>
+            <h2 class="skills-sub-title project-title">House Sales Project</h2>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://github.com/yt3302/King-County-House-Sales-Project.git'"
+              >
+                Github
+              </button>
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://public.tableau.com/views/KingCountyHouseSales_17249224021730/KingCountyHouseSales?:language=en-GB&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link'"
+              >
+                Visualization
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- 2nd row -->
+      <div class="skills-details-container">
+        <div class="about-containers">
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="./assets/airbnb.png"
+                alt="Airbnb Project"
+                class="project-img"
+              />
+            </div>
+            <h2 class="skills-sub-title project-title">Airbnb Project</h2>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://github.com/yt3302/Airbnb-Project.git'"
+              >
+                Github
+              </button>
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://public.tableau.com/views/AirBnBFullProject_17169549474130/Dashboard2?:language=en-GB&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link'"
+              >
+                Visualization
+              </button>
+            </div>
+          </div>
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="./assets/plants.png"
+                alt="Plants Performance Project"
+                class="project-img"
+              />
+            </div>
+            <h2 class="skills-sub-title project-title">Plants Performance Project</h2>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://github.com/yt3302/Plants-Performance-Project.git'"
+              >
+                Github
+              </button>
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://sdtaylorsedu-my.sharepoint.com/:u:/g/personal/yiting_cheng_sd_taylors_edu_my/EQvx_STbFWpBu-j6c0SxgDoBw-Z-Qm8Lf-XB5E8fiWTWBw'"
+              >
+                Visualization
+              </button>
+            </div>
+          </div>
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="./assets/coffee.png"
+                alt="Coffee Orders Project"
+                class="project-img"
+              />
+            </div>
+            <h2 class="skills-sub-title project-title">Coffee Orders Project</h2>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://github.com/yt3302/Coffee-Orders-Project.git'"
+              >
+                Github
+              </button>
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://sdtaylorsedu-my.sharepoint.com/:x:/g/personal/yiting_cheng_sd_taylors_edu_my/EQ5tckUejdpCsfQmRI7gUSQBaTFZKwocQSD0lHDFkIOwEQ'"
+              >
+                Visualization
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- 3rd row -->
+      <div class="skills-details-container">
+        <div class="about-containers">
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="./assets/bikeShare.png"
+                alt="Cyclist Bike Shared Analysis Project"
+                class="project-img"
+              />
+            </div>
+            <h2 class="skills-sub-title project-title">Cyclist Analysis Project</h2>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://github.com/yt3302/Cyclist-Bike-Share-Analysis-Project.git'"
+              >
+                Github
+              </button>
+            </div>
+          </div>
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="./assets/bellabeat.png"
+                alt="Bellabeat Product Analysis Project"
+                class="project-img"
+              />
+            </div>
+            <h2 class="skills-sub-title project-title">Product Analysis Project</h2>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://github.com/yt3302/Bellabeat-Product-Analysis-Project.git'"
+              >
+                Github
+              </button>
+            </div>
+          </div>
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="./assets/sql.png"
+                alt="SQL Project"
+                class="project-img"
+              />
+            </div>
+            <h2 class="skills-sub-title project-title">SQL Project</h2>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://github.com/yt3302/SQL-Project.git'"
+              >
+                Github
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Back to Projects Button -->
+    <div class="back-to-projects-container" style="text-align: center; margin-top: 2rem;">
+        <button
+          class="btn btn-color-1 back-btn"
+          onclick="location.href='index.html'"
+        >
+          Back to Projects
+        </button>
+      </div>
+  </section>
+        
+    <footer>
+      <nav>
+        <div class="nav-links-container">
+          <ul class="nav-links">
+            <li><a href="index.html#about">About</a></li>
+            <li><a href="index.html#skills">Skills</a></li>
+            <li><a href="index.html#projects">Projects</a></li>
+            <li><a href="index.html#contact">Contact</a></li>
+          </ul>
+        </div>
+      </nav>
+      <p>Copyright &#169; 2024 Cheng Yi Ting. All Rights Reserved.</p>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
